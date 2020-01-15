@@ -1,0 +1,14 @@
+1. SELECT username FROM table1 GROUP BY username;
+
+2. SELECT phone_id, user_id FROM table2 WHERE phone_number = 200;
+
+3. SELECT table1 username FROM table1 user_id INNER JOIN USING table2 user_id WHERE phone_number=202;
+
+4. SELECT AVG (room_number) FROM table3;
+
+5. SELECT MAX(phone_number) FROM table2
+
+6. SELECT table3.room_number FROM table1 INNER JOIN table2 USING(user_id) INNER JOIN table3 USING(phone_id) WHERE table1.username = 'qux';
+
+7. SELECT table2.phone_number FROM table1 INNER JOIN USING table1.user_id WHERE table1.username LIKE 'ba%'; 
+

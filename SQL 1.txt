@@ -1,0 +1,17 @@
+1. SELECT * FROM subjects, students, teachers;
+
+2. SELECT name FROM `students`;
+
+3. UPDATE `students` SET `rating` = '0' WHERE `students`.`id` = '1,6,7,8';
+
+4. SELECT name FROM `students` WHERE rating = 'null';
+
+5. SELECT name FROM `students` WHERE age>19; 
+
+6. SELECT age, name FROM `students` ORDER BY age;
+
+7. SELECT age, name FROM `students` ORDER BY age DESC;
+
+8. SELECT name, age, rating FROM `students` WHERE rating >0 AND age ORDER BY age DESC;
+
+ 
